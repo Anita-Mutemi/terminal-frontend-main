@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --prime: #222222;
+  --text: #232326;
+  --secondary-text: #58585b;
+  --backgrounds: #eee;
+  --borders: #0000001e;
+}
+/* 
+.infinite-scroll-component__outerdiv {
+  width: 100% !important;
+  display:flex !important;
+  padding:1.5rem;
+  justify-content: center!important;
+  padding-top:0rem;
+} */
+
+.ant-btn-primary {
+  &:hover {
+    color:#40e0d0 !important;
+    border-color: #40e0d0 !important;
+  }
+}
+
+@font-face {
+  font-family: "Alliance" !important;
+  src: local("Alliance"),
+   url("./assets/fonts/Alliance-Bold.otf") format("truetype");
+  font-weight: 900;
+  }
+@font-face {
+  font-family: "Alliance" !important;
+  src: local("Alliance"),
+   url("./assets/fonts/Alliance-SemiBold.otf") format("truetype");
+  font-weight: 800;
+  }
+@font-face {
+  font-family: "Alliance" !important;
+  src: local("Alliance"),
+   url("./assets/fonts/Alliance-Regular.otf") format("truetype");
+  font-weight: 400;
+  }
+@font-face {
+  font-family: "Plantagenet Cherokee" !important;
+  src: local("Plantagenet Cherokee"),
+   url("./assets/fonts/Plantagenet Cherokee.ttf") format("truetype");
+  }
+
+@font-face {
+  font-family: "Alliance" !important;
+  src: local("Alliance"),
+   url("./assets/fonts/Alliance-Light.otf") format("truetype");
+  font-weight: 200;
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: 'Alliance', Arial !important;
+}
+
+ul {
+  margin-top:0.6em;
+  margin-bottom:0.6em;
+  padding-left:1.3em;
+}
+
+li{
+  margin-top:0.6em;
+  margin-bottom:0.6em;
+}
+
+body{
+  background-color: #eee;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6.5px;
+  height:2.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: none;
+  padding-left: 1rem;
+  margin-left: 0.3rem;
+  background:#dbdbdbaa;
+  border-radius: 1.5px;  /* display: none; */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7c7c7c; 
+  border-radius: 1.5px;
+  /* display: none; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5a5a5a; 
+  display: block;
+}
+
+/* styles.css */
+.myHeader{
+  transition: all 0.5s ease !important;
+}
+.myHeader:hover {
+  background-color: #fafafa0c !important;
+}
+
+
+.home,
+.reports,
+.products,
+.team,
+.reports {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.searchbar1 .MuiOutlinedInput-root{
+  width:70%;
+  border:1px solid red;
+  border-radius:20px;
+
+}

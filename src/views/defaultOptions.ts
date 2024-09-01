@@ -1,0 +1,150 @@
+export const defaultOptions = [
+  { id: 'fleet', value: 'fleet', label: 'fleet', color: '' },
+  {
+    id: 'fleet-management',
+    value: 'fleet management',
+    label: 'fleet management',
+    color: '',
+  },
+  {
+    id: 'fleet-solutions',
+    value: 'fleet solutions',
+    label: 'fleet solutions',
+    color: '',
+  },
+  {
+    id: 'flexible-financing',
+    value: 'flexible financing',
+    label: 'flexible financing',
+    color: '',
+  },
+  {
+    id: 'floor-operations',
+    value: 'floor operations',
+    label: 'floor operations',
+    color: '',
+  },
+  { id: 'flow-batteries', value: 'flow batteries', label: 'flow batteries', color: '' },
+  {
+    id: 'automated-workflows',
+    value: 'Automated Workflows',
+    label: 'Automated Workflows',
+    color: '',
+  },
+  { id: 'e2e-workflows', value: 'E2E workflows', label: 'E2E workflows', color: '' },
+  { id: 'flexibility', value: 'Flexibility', label: 'Flexibility', color: '' },
+  { id: 'flexible', value: 'Flexible', label: 'Flexible', color: '' },
+  {
+    id: 'flexible-engagement-model',
+    value: 'Flexible Engagement Model',
+    label: 'Flexible Engagement Model',
+    color: '',
+  },
+  {
+    id: 'influencer-marketing',
+    value: 'Influencer Marketing',
+    label: 'Influencer Marketing',
+    color: '',
+  },
+  { id: 'snowflake', value: 'Snowflake', label: 'Snowflake', color: '' },
+  {
+    id: 'truesense-flash-lidar',
+    value: 'TrueSense flash LiDAR',
+    label: 'TrueSense flash LiDAR',
+    color: '',
+  },
+  {
+    id: 'business-critical-vehicle-fleets',
+    value: 'business critical vehicle fleets',
+    label: 'business critical vehicle fleets',
+    color: '',
+  },
+  { id: 'delivery-fleet', value: 'delivery fleet', label: 'delivery fleet', color: '' },
+  {
+    id: 'end-to-end-workflows',
+    value: 'end-to-end workflows',
+    label: 'end-to-end workflows',
+    color: '',
+  },
+  {
+    id: 'manual-shop-floor-processes',
+    value: 'manual shop-floor processes',
+    label: 'manual shop-floor processes',
+    color: '',
+  },
+  {
+    id: 'offline-capable',
+    value: 'offline-capable',
+    label: 'offline-capable',
+    color: '',
+  },
+  {
+    id: 'software-definable-flash-lidar-sensors',
+    value: 'software-definable flash LiDAR sensors',
+    label: 'software-definable flash LiDAR sensors',
+    color: '',
+  },
+];
+
+export const segment = [
+  {
+    id: 1,
+    value: 'Government and Public Organizations',
+    label: 'Government and Public Organizations',
+    color: '',
+  },
+  {
+    id: 2,
+    value: 'Individuals and Consumers',
+    label: 'Individuals and Consumers',
+    color: '',
+  },
+  { id: 3, value: 'Large Enterprises', label: 'Large Enterprises', color: '' },
+  { id: 4, value: 'Medium Businesses', label: 'Medium Businesses', color: '' },
+  {
+    id: 5,
+    value: 'Other Business and Enterprise',
+    label: 'Other Business and Enterprise',
+    color: '',
+  },
+  { id: 6, value: 'Small Businesses', label: 'Small Businesses', color: '' },
+  { id: 7, value: 'Startups', label: 'Startups', color: '' },
+];
+
+export const companiesOptions = [
+  {
+    id: '93cbaadd-8edf-4630-a18a-d282fc674265',
+    value: 'Moeco',
+    label: 'Moeco',
+    color: '',
+    uuid: '93cbaadd-8edf-4630-a18a-d282fc674265',
+  },
+  {
+    id: '589d5105-ff19-40f3-997d-a80acf39f79a',
+    value: 'COAST Autonomous',
+    label: 'COAST Autonomous',
+    color: '',
+    uuid: '589d5105-ff19-40f3-997d-a80acf39f79a',
+  },
+  {
+    id: '8302c549-e785-4034-b45a-d257e6fe5367',
+    value: 'NemoData',
+    label: 'NemoData',
+    color: '',
+    uuid: '8302c549-e785-4034-b45a-d257e6fe5367',
+  },
+  {
+    id: '978f33ef-bb75-4f32-910b-eee325a4fe43',
+    value: 'Safemode',
+    label: 'Safemode',
+    color: '',
+    uuid: '978f33ef-bb75-4f32-910b-eee325a4fe43',
+  },
+  {
+    id: '894036c0-3e32-4813-aeac-231fa59fba96',
+    value: 'Aiden Automotive Technologies',
+    label: 'Aiden Automotive Technologies',
+    color: '',
+    uuid: '894036c0-3e32-4813-aeac-231fa59fba96',
+  },
+];
