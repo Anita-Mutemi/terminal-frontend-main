@@ -50,7 +50,7 @@ import FundPage from './pages/FundPage';
 moment.tz.setDefault('Europe/Isle_of_Man');
 const apiBaseUrl = process.env.REACT_APP_API_URL; // Retrieve the API URL from the environment variable
 // @ts-ignore
-axios.defaults.baseURL = 'http://127.0.0.1:8000/';
+axios.defaults.baseURL = 'https://api.arbmintel.com/';
 // axios.defaults.baseURL = 'https://api.alphaterminal.pro/';
 
 // test

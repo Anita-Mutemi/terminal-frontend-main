@@ -13,7 +13,7 @@ module.exports = function (app) {
       '/v1/projects/:id/comments',
     ],
     proxy({
-      target: 'http://127.0.0.1:8000',
+      target: 'https://api.arbmintel.com/',
       changeOrigin: true,
     }),
   );
