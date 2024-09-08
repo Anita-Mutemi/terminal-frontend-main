@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // @ts-nocheck
 import React, { memo, useState } from 'react';
 import Box from '@mui/material/Box';

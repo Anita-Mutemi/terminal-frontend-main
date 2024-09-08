@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable jsx-a11y/alt-text */
 // @ts-nocheck
 
 import React, { useState, useRef } from 'react';

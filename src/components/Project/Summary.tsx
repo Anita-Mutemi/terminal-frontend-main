@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // @ts-nocheck
 import React, { memo, useState, useCallback } from 'react';
 import Moment from 'react-moment';

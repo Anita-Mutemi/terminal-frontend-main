@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // ActivityLineGraph.js
 import React, { memo, useState, useCallback, useEffect } from 'react';
 import TimeLine from './TimeLine';

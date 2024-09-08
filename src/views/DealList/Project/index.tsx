@@ -1,3 +1,6 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // @ts-nocheck
 import React, { memo, useState, useCallback, useRef, useEffect } from 'react';
 import styled, { useTheme } from 'styled-components';

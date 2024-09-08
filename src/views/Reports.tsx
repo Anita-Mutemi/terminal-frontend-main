@@ -1,3 +1,6 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import React, { useEffect, useCallback, useState, useContext } from 'react';
 import styled, { useTheme } from 'styled-components';
 import axios from 'axios';

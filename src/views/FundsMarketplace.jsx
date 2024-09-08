@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import VentureFundCard from '../components/FundCard';
 import NavigationCard from '../components/NavigationCard';

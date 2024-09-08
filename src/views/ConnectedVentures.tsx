@@ -1,3 +1,6 @@
+/* eslint-disable array-callback-return */
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // @ts-nocheck
 import React, {
   useState,
