@@ -6,7 +6,7 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
-    "@formkit/auto-animate": "^1.0.0-pre-alpha.3",
+    "@formkit/auto-animate": "^0.8.2",
     "@mui/icons-material": "^5.16.7",
     "@mui/joy": "^5.0.0-beta.48",
     "@mui/material": "^5.16.7",
