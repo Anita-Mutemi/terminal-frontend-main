@@ -13,7 +13,7 @@ module.exports = function (app) {
       '/v1/projects/:id/comments',
     ],
     proxy({
-      target: 'https://api.arbmintel.com/',
+      target: 'https://desolate-harbor-30841-707d8d470803.herokuapp.com/',
       changeOrigin: true,
     }),
   );
