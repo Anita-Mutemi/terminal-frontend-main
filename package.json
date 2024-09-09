@@ -90,8 +90,8 @@
     "eject": "react-scripts eject",
     "build:test": "env-cmd -f .env.test react-scripts build",
     "build:prod": "env-cmd -f .env.prod react-scripts build",
-    "heroku-postbuild": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
-    "postinstall": "npm install --legacy-peer-deps"
+    "heroku-postbuild": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build"
+
   },
   "engines": {
     "node": "20.17.0",
