@@ -86,7 +86,7 @@
   },
   "scripts": {
     "start": "serve -s build",
-    "build": "react-scripts build",
+    "build": "NODE_OPTIONS='--max_old_space_size=4096' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:test": "env-cmd -f .env.test react-scripts build",
