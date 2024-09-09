@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a66d01dc.css",
-    "main.js": "/static/js/main.06e206e3.js",
+    "main.js": "/static/js/main.e5932495.js",
     "static/js/453.50eecbe1.chunk.js": "/static/js/453.50eecbe1.chunk.js",
     "static/media/Plantagenet Cherokee.ttf": "/static/media/Plantagenet Cherokee.5510773e2999ce59b980.ttf",
     "static/media/Alliance-Bold.otf": "/static/media/Alliance-Bold.c6dc4bb91c75cbf27d93.otf",
@@ -22,11 +22,11 @@
     "index.html": "/index.html",
     "static/media/crunchbase.svg": "/static/media/crunchbase.2a5388db9175ecf3f5fc967f5d296297.svg",
     "main.a66d01dc.css.map": "/static/css/main.a66d01dc.css.map",
-    "main.06e206e3.js.map": "/static/js/main.06e206e3.js.map",
+    "main.e5932495.js.map": "/static/js/main.e5932495.js.map",
     "453.50eecbe1.chunk.js.map": "/static/js/453.50eecbe1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a66d01dc.css",
-    "static/js/main.06e206e3.js"
+    "static/js/main.e5932495.js"
   ]
 }
