@@ -86,11 +86,12 @@
   },
   "scripts": {
     "start": "serve -s build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:test": "env-cmd -f .env.test react-scripts build",
     "build:prod": "env-cmd -f .env.prod react-scripts build",
-    "heroku-postbuild": "NODE_OPTIONS='--openssl-legacy-provider --max-old-space-size=8046' react-scripts build"
+    "postinstall": "npm run build"
 
   },
   "engines": {
