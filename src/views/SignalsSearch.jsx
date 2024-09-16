@@ -1,44 +1,42 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable no-unused-vars */
-import React, {
+import {
   useState,
   useCallback,
   useEffect,
 } from "react";
 import axios from "axios";
 import { useSelector } from "react-redux";
-import { companiesOptions } from "./defaultOptions"; // Make sure to import your default options correctly
+// import { companiesOptions } from "./defaultOptions"; // Make sure to import your default options correctly
 import AsyncSelect from "react-select/async";
 import TimelineGraph from "../views/DealList/Project/TimelineGraph"; // Import your TimelineGraph component
 import TimeLine from "../views/DealList/Project//TimeLine"; // Import your TimelineGraph component
 import styled, { useTheme } from "styled-components";
-import { Button } from "antd";
+// import { Button } from "antd";
 import { Oval } from "react-loader-spinner";
-import { Card, Col, Row } from "antd";
-import Project from "../components/Project";
-import { SearchProvider, useSearch } from "../hooks/UrlSearchContext";
+import { Card } from "antd";
+// import Project from "../components/Project";
+import { useSearch } from "../hooks/UrlSearchContext";
 import { useSearchProjects } from "../hooks/useSearch";
 
 const SignalsSearch = () => {
   const theme = useTheme();
-  const [suggestions, setSuggestions] = useState({
+  const [] = useState({
     project: [],
   });
   // const [loading, setLoading] = useState(false);
-  const { updateSearchResults, loading, setLoading } = useSearch();
+  const { loading, setLoading } = useSearch();
 
-  const [isButtonClicked, setIsButtonClicked] = useState(false); // New state
+  const [setIsButtonClicked] = useState(false); // New state
 
   const [projectData, setProjectData] = useState(null);
   const { searchResults } = useSearch();
 
   const [companiesOption, setCompaniesOption] = useState({});
   const [isButtonEnabled, setIsButtonEnabled] = useState(false);
-  const { userInfo, access_token } = useSelector((state) => state.user);
+  const { access_token } = useSelector((state) => state.user);
 
-  const { debouncedLoadSuggestions } = useSearchProjects();
+  const [] = useSearchProjects();
 
-  const customStylesSingle = {
+  const [] = {
     singleValue: (provided) => ({
       ...provided,
 
@@ -46,7 +44,7 @@ const SignalsSearch = () => {
       border: "none",
       color: theme.text,
     }),
-    option: (styles, { data, isDisabled, isFocused, isSelected }) => {
+    option: (styles, { isDisabled, isFocused, isSelected }) => {
       return {
         ...styles,
         backgroundColor: isDisabled

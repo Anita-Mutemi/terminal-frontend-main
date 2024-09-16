@@ -1,16 +1,14 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable no-unused-vars */
 import React, { useEffect, useState, useCallback } from 'react';
 import styled, { useTheme } from 'styled-components';
 import Project from './Project';
 import { BsStars } from 'react-icons/bs';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { Oval } from 'react-loader-spinner';
-import ActionsDial from '../../components/ActionsDial';
+// import ActionsDial from '../../components/ActionsDial';
 import useDealFlowData from './useDealFlowData';
 import FeedEnd from '../../UI/FeedEnd';
 import { GeneralErrorBoundary } from '../../UI/Errors/GeneralErrorBoundary';
-import { Form, Select, Button } from 'antd';
+import { Form, Button } from 'antd';
 import logo from '../../assets/logo-gray.png';
 import { Result } from 'antd';
 

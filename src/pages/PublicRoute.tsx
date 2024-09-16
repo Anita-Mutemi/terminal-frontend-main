@@ -1,16 +1,16 @@
 // ProtectedRoute.js
-import { useEffect, useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { NavLink, Outlet } from 'react-router-dom';
-import { getUserDetails } from '../features/user/userActions';
-import Box from '@mui/material/Box';
+// import { useEffect, useState } from 'react';
+// import { useSelector, useDispatch } from 'react-redux';
+import { Outlet } from 'react-router-dom';
+// import { getUserDetails } from '../features/user/userActions';
+// import Box from '@mui/material/Box';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from '../components/Theme/GlobalStyles';
 import { useDarkMode } from '../hooks/useDarkMode';
 import { lightTheme, darkTheme } from '../components/Theme/Themes';
-import * as AiIcons from 'react-icons/ai';
-import LinearProgress from '@mui/material/LinearProgress';
-import { Typography, Button } from '@mui/material';
+// import * as AiIcons from 'react-icons/ai';
+// import LinearProgress from '@mui/material/LinearProgress';
+// import { Typography, Button } from '@mui/material';
 
 const PublicRoute = () => {
   //@ts-ignore

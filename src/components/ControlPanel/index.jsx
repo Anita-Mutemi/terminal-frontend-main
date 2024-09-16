@@ -1,5 +1,4 @@
-/* eslint-disable no-unused-vars */
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import styled, { useTheme } from 'styled-components';
 import { Button, Menu, MenuItem } from '@mui/material';
 import Divider from '@mui/material/Divider';

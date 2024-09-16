@@ -1,5 +1,4 @@
-/* eslint-disable no-unused-vars */
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState } from 'react';
 import { Card, Typography } from 'antd';
 import axios from 'axios';
 import { useTheme } from 'styled-components';

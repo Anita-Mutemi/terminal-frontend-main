@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 // @ts-nocheck
 import React from 'react';
 import styled, { useTheme } from 'styled-components';

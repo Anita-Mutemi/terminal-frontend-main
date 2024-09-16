@@ -1,9 +1,8 @@
-/* eslint-disable no-unused-vars */
 // ActivityLineGraph.js
-import React, { memo, useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import TimeLine from './TimeLine';
 import TimelineGraph from './TimelineGraph';
-import { Card, Typography } from 'antd';
+import { Typography } from 'antd';
 import Rating from '../../components/Rating';
 
 import Moment from 'react-moment';

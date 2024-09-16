@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { useState, useEffect, useRef } from 'react';
 import { useSelector } from 'react-redux';
 import { useAILists } from '../../hooks/AIListsDataProvider';

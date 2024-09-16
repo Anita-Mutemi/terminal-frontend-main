@@ -1,7 +1,6 @@
-/* eslint-disable no-unused-vars */
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button, notification, Space } from 'antd';
+import { notification, Space } from 'antd';
 
 const Popup = (props) => {
   const [api, contextHolder] = notification.useNotification();

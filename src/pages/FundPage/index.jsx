@@ -1,10 +1,10 @@
-import React, { useState, useCallback, useEffect } from 'react';
-import Feed from '../../components/Feed';
+import { useState, useCallback, useEffect } from 'react';
+// import Feed from '../../components/Feed';
 import Fund from '../../components/Fund';
 import { useSelector } from 'react-redux';
 import styled, { useTheme } from 'styled-components';
 import { useParams } from 'react-router-dom';
-import ActivityLineGraph from './Activity';
+// import ActivityLineGraph from './Activity';
 import SectionHeader from '../../components/NavigationCard/SectionHeader';
 import { Oval } from 'react-loader-spinner';
 

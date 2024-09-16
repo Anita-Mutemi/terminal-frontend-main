@@ -1,9 +1,9 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState } from 'react';
 import { Card, Typography } from 'antd';
 import axios from 'axios';
 import { useTheme } from 'styled-components';
 import * as BsIcons from 'react-icons/bs';
-import * as AiIcons from 'react-icons/ai';
+// import * as AiIcons from 'react-icons/ai';
 import { useScreenshot } from '../../hooks/useScreenshot';
 import Tooltip from '@mui/material/Tooltip';
 import { scaleLog } from 'd3-scale';

@@ -1,10 +1,9 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import React, { useRef, useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import axios from 'axios';
 import moment from 'moment';
 import { Oval } from 'react-loader-spinner';
 import styled, { createGlobalStyle, useTheme } from 'styled-components';
-import { Bar } from 'react-chartjs-2';
+// import { Bar } from 'react-chartjs-2';
 interface TimelineProps {
   uuid: string;
   access_token: string;

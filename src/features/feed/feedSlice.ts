@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import {
   getFeed,
   getFeedInitial,
-  getFeedData,
+  // getFeedData,
   getGoodProjects,
   getGreatProjects,
   getUnratedProjectsNumber,

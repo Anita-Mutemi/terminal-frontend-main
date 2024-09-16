@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Checkbox from '@mui/material/Checkbox';
@@ -6,7 +5,7 @@ import styled, { useTheme } from 'styled-components';
 import Typography from '@mui/material/Typography';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import { useNavigate } from 'react-router-dom';
-import { useSelector, useDispatch } from 'react-redux';
+// import { useSelector, useDispatch } from 'react-redux';
 import { Oval } from 'react-loader-spinner';
 import toast, { Toaster } from 'react-hot-toast';
 import axios from 'axios';

@@ -1,7 +1,6 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import React from 'react';
+// import React from 'react';
 import styled from 'styled-components';
-import * as FaIcons from 'react-icons/fa';
+// import * as FaIcons from 'react-icons/fa';
 import Moment from 'react-moment';
 
 interface CommentInterface {

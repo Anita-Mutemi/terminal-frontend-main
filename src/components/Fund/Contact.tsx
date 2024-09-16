@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 // @ts-nocheck
 import React, { useCallback, useState, useEffect } from 'react';
 import ContactCard from '../../UI/ContactCard';

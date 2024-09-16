@@ -1,12 +1,11 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Checkbox from '@mui/material/Checkbox';
+// import * as React from 'react';
+// import Box from '@mui/material/Box';
+// import Checkbox from '@mui/material/Checkbox';
 import styled from 'styled-components';
-import * as BiIcons from 'react-icons/bi';
+// import * as BiIcons from 'react-icons/bi';
 
-import Typography from '@mui/material/Typography';
-import FormControlLabel from '@mui/material/FormControlLabel';
+// import Typography from '@mui/material/Typography';
+// import FormControlLabel from '@mui/material/FormControlLabel';
 
 interface Sidebar {
   title: string;

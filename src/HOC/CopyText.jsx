@@ -1,6 +1,6 @@
-import React from 'react';
+// import React from 'react';
 import { message } from 'antd';
-import { CopyOutlined } from '@ant-design/icons';
+// import { CopyOutlined } from '@ant-design/icons';
 import { FaRegCopy } from 'react-icons/fa6';
 
 const CopyWrapper = ({ children, textToCopy }) => {

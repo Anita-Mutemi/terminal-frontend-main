@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getUserDetails } from '../features/user/userActions';
-import { useNavigation } from 'react-router-dom';
+// import { useNavigation } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
 //@ts-ignore
 const Main = () => {

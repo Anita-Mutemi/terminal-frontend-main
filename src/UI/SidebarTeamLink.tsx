@@ -1,10 +1,9 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import * as React from 'react';
+// import * as React from 'react';
 import Box from '@mui/material/Box';
 import styled from 'styled-components';
 import Typography from '@mui/material/Typography';
-import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
-import { FormControlLabel } from '@mui/material';
+// import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
+// import { FormControlLabel } from '@mui/material';
 
 interface Sidebar {
   title: string;

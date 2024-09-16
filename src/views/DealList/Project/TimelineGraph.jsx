@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState } from 'react';
 import { Card, Typography } from 'antd';
 import axios from 'axios';
 import { useTheme } from 'styled-components';
@@ -7,12 +7,12 @@ import {
 	XAxis,
 	YAxis,
 	Tooltip,
-	Line,
-	Bar,
+	// Line,
+	// Bar,
 	Area,
 	ResponsiveContainer,
 	ComposedChart,
-	AreaChart,
+	// AreaChart,
 } from 'recharts';
 import logo from '../../../assets/logo-gray.png';
 

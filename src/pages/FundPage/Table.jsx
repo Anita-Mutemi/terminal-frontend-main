@@ -1,7 +1,7 @@
-import React from 'react';
+// import React from 'react';
 import { Table } from 'antd';
 import styled, { useTheme } from 'styled-components';
-import { Tooltip } from 'antd';
+// import { Tooltip } from 'antd';
 
 const StyledTable = styled(Table)`
   filter: saturate(0.35);

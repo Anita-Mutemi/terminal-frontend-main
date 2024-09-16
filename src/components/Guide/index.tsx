@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 // @ts-nocheck
 import React, { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';

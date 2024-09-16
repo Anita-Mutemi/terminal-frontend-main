@@ -1,6 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable no-unused-vars */
-import React from 'react';
+// import React from 'react';
 import VentureFundCard from '../components/FundCard';
 import NavigationCard from '../components/NavigationCard';
 import { useTheme } from 'styled-components';
@@ -12,13 +10,13 @@ import { InputAdornment } from '@mui/material';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import axios from 'axios';
 import { useSelector } from 'react-redux';
-export const useFetchFunds = (query, debounceTime = 300) => {
+export const useFetchFunds = () => {
 	const [data, setData] = useState([]);
 	const [isLoading, setIsLoading] = useState(true);
 	const [error, setError] = useState(null);
 	const { access_token } = useSelector((state) => state.user);
 	// const debouncedQuery = useDebounce(query, debounceTime);
-	const [allFunds, setAllFunds] = useState([]);
+	const [setAllFunds] = useState([]);
 
 	const fetchData = async () => {
 		const config = {

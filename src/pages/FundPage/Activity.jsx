@@ -1,13 +1,13 @@
   // ActivityLineGraph.js
-  import React from 'react';
+  // import React from 'react';
   import {
-    LineChart,
-    Line,
+    // LineChart,
+    // Line,
     XAxis,
     YAxis,
     Tooltip,
     Area,
-    CartesianGrid,
+    // CartesianGrid,
     ComposedChart,
   } from 'recharts';
   import { Card, Typography } from 'antd';

@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   ComposedChart,
   Line,
   Area,
-  Bar, // Add Bar component
+  // Bar, // Add Bar component
   XAxis,
   YAxis,
-  Brush,
+  // Brush,
   CartesianGrid,
   Tooltip,
   Legend,

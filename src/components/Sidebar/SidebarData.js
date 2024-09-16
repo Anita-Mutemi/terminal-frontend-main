@@ -1,9 +1,8 @@
-/* eslint-disable no-unused-vars */
-import React from 'react';
-import * as FaIcons from 'react-icons/fa';
+// import React from 'react';
+// import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
-import * as RiIcons from 'react-icons/ri';
+// import * as RiIcons from 'react-icons/ri';
 import * as TfiIcons from 'react-icons/tfi';
 
 export const SidebarData = [

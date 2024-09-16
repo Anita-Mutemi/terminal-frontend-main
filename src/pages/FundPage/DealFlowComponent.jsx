@@ -1,9 +1,9 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import styled, { useTheme } from 'styled-components';
 import Project from './Project';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { Oval } from 'react-loader-spinner';
-import ActionsDial from '../../components/ActionsDial';
+// import ActionsDial from '../../components/ActionsDial';
 import useDealFlowData from './hooks/useDealFlowData';
 import FeedEnd from '../../UI/FeedEnd';
 import { GeneralErrorBoundary } from '../../UI/Errors/GeneralErrorBoundary';

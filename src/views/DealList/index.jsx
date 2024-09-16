@@ -1,28 +1,27 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable no-unused-vars */
-import React, { useEffect, useState, useRef } from 'react';
+// import React, { useEffect, useState, useRef } from 'react';
+import { useEffect } from "react";
 import { useSelector } from 'react-redux';
-import axios from 'axios';
-import DateRangeIcon from '@mui/icons-material/DateRange';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import TrendingUpIcon from '@mui/icons-material/TrendingUp';
-import GroupIcon from '@mui/icons-material/Group';
-import InfiniteScroll from 'react-infinite-scroll-component';
+// import axios from 'axios';
+// import DateRangeIcon from '@mui/icons-material/DateRange';
+// import LocationOnIcon from '@mui/icons-material/LocationOn';
+// import TrendingUpIcon from '@mui/icons-material/TrendingUp';
+// import GroupIcon from '@mui/icons-material/Group';
+// import InfiniteScroll from 'react-infinite-scroll-component';
 import { useTheme } from 'styled-components';
 import NavigationCard from '../../components/NavigationCard';
-import { Oval } from 'react-loader-spinner';
-import FeedEnd from '../../UI/FeedEnd';
-import { useData } from '../../hooks/LiveFeedContext';
-import LanguageIcon from '@mui/icons-material/Language';
-import moment from 'moment';
+// import { Oval } from 'react-loader-spinner';
+// import FeedEnd from '../../UI/FeedEnd';
+// import { useData } from '../../hooks/LiveFeedContext';
+// import LanguageIcon from '@mui/icons-material/Language';
+// import moment from 'moment';
 import { DealFlowComponent } from './DealFlowComponent';
 
 export const DealList = () => {
-	const [data, setData] = useState([]);
-	const [transformedData, setTranformedData] = useState([]);
-	const [hasMore, setHasMore] = useState(true);
-	const [isLoading, setIsLoading] = useState(false);
-	const infiniteScrollRef = useRef(); // Reference to the InfiniteScroll component
+	// const [data, setData] = useState([]);
+	// const [transformedData, setTranformedData] = useState([]);
+	// const [hasMore, setHasMore] = useState(true);
+	// const [isLoading, setIsLoading] = useState(false);
+	// const infiniteScrollRef = useRef(); // Reference to the InfiniteScroll component
 	const { access_token } = useSelector((state) => state.user);
 	const theme = useTheme();
 

@@ -1,7 +1,5 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 
-import React, { useEffect, useCallback, useState, useContext } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import styled, { useTheme } from 'styled-components';
 import axios from 'axios';
 import ReportCard from '../UI/ReportCard';
@@ -10,11 +8,11 @@ import DashboardContext from '../hooks/DashboardContext';
 
 const Reports = () => {
   // @ts-ignore
-  const reportsProps = useContext(DashboardContext);
-  const theme = useTheme();
+  // const reportsProps = useContext(DashboardContext);
+  // const theme = useTheme();
 
   const [reports, setReports] = useState<any>([]);
-  const { loading, error, userInfo, access_token } = useSelector(
+  const { access_token } = useSelector(
     (state: any) => state.user,
   );
   const generateReport = async () => {
