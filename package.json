@@ -86,18 +86,19 @@
     "typescript": "^3.9.10",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "serve -s build",
-    "lint": "eslint .",
-    "clean": "rimraf node_modules build",
-    "install:legacy": "npm install --legacy-peer-deps",
-    "build": "cross-env NODE_OPTIONS='--max_old_space_size=4096' react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "build:test": "env-cmd -f .env.test react-scripts build",
-    "build:prod": "env-cmd -f .env.prod react-scripts build",
-    "postinstall": "npm run build"
-  },
+"scripts": {
+  "start": "serve -s build",
+  "dev": "react-scripts start",
+  "lint": "eslint .",
+  "clean": "rimraf build",
+  "clean:all": "rimraf node_modules build",
+  "install:legacy": "npm install --legacy-peer-deps",
+  "build": "cross-env NODE_OPTIONS='--max_old_space_size=4096' react-scripts build",
+  "build:test": "env-cmd -f .env.test react-scripts build",
+  "build:prod": "env-cmd -f .env.prod react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+},
   "engines": {
     "node": "20.17.0",
     "npm": ">=10.8.3"
