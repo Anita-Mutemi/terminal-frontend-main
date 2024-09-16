@@ -90,6 +90,7 @@
     "start": "serve -s build",
     "lint": "eslint .",
     "clean": "rimraf node_modules build",
+    "install:legacy": "npm install --legacy-peer-deps",
     "build": "NODE_OPTIONS='--max_old_space_size=4096' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
