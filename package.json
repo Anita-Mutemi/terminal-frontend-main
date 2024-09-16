@@ -88,6 +88,7 @@
   },
   "scripts": {
     "start": "serve -s build",
+    "lint": "eslint .",
     "clean": "rimraf node_modules build",
     "build": "NODE_OPTIONS='--max_old_space_size=4096' react-scripts build",
     "test": "react-scripts test",
@@ -120,9 +121,14 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.24.7",
+    "@eslint/js": "^9.10.0",
     "@types/papaparse": "^5.3.14",
     "@types/styled-components": "^5.1.34",
     "cross-env": "^7.0.3",
-    "env-cmd": "^10.1.0"
+    "env-cmd": "^10.1.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.36.1",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.5.0"
   }
 }
